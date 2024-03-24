@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="33.714" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Adactin Hotel booking the Rooms." name="Login should be success" time="20.708">
+<system-out><![CDATA[
+Given User navigate to the hotel login Page.................................passed
+And User enter the username as yours "Admin"................................passed
+And User enter the password as "admin123"...................................passed
+When User click login button................................................passed
+Then the login should be success............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Adactin Hotel booking the Rooms." name="Login should be Fail" time="12.33">
+<system-out><![CDATA[
+Given User navigate to the hotel login Page.................................passed
+And User enter the username as yours "Admin"................................passed
+And User enter the password as "admin12"....................................passed
+When User click login button................................................passed
+Then the login should be fail...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
